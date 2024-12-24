@@ -1,0 +1,53 @@
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  position: relative;
+}
+
+.table-wrapper {
+  min-width: 1000px;
+  position: relative;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: #f4f4f4;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.sticky-column {
+  position: sticky;
+  left: 0;
+  background-color: #fff;
+  z-index: 2;
+  border-right: 1px solid #ddd;
+}
+
+.pagination-wrapper {
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.pagination button {
+  margin: 0 5px;
+}
